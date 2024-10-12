@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leilões</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Leilões Disponíveis</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Leilão</th>
+                    <th>Local</th>
+                    <th>Data</th>
+                    <th>Produtos</th>
+                </tr>
+            </thead>
+            <tbody id="auction-table">
+                <!-- Aqui os leilões serão carregados -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        // Aqui você poderá carregar os leilões via AJAX ou outro mecanismo
+        $(document).ready(function () {
+            $('#auction-table').append(`
+                <tr>
+                    <td>Leilão 1</td>
+                    <td>São Paulo, SP</td>
+                    <td>20/12/2024</td>
+                    <td>Imóvel - R$ 450.000</td>
+                </tr>
+            `);
+        });
+    </script>
+</body>
+</html>

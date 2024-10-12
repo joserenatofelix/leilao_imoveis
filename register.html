@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Produtos e Leilões</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Registrar Produto para Leilão</h2>
+        <form id="product-form">
+            <!-- Cadastro de Imóveis -->
+            <div class="form-group">
+                <label for="product-type">Tipo de Produto:</label>
+                <select class="form-control" id="product-type">
+                    <option value="imovel">Imóvel</option>
+                    <option value="veiculo">Veículo</option>
+                </select>
+            </div>
+
+            <!-- Detalhes do Imóvel/Veículo -->
+            <div class="form-group">
+                <label for="product-name">Nome do Produto:</label>
+                <input type="text" class="form-control" id="product-name" required>
+            </div>
+            <div class="form-group">
+                <label for="product-description">Descrição:</label>
+                <textarea class="form-control" id="product-description" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="product-price">Preço Inicial:</label>
+                <input type="number" class="form-control" id="product-price" required>
+            </div>
+
+            <!-- Detalhes do Leilão -->
+            <div class="form-group">
+                <label for="auction-date">Data do Leilão:</label>
+                <input type="date" class="form-control" id="auction-date" required>
+            </div>
+            <div class="form-group">
+                <label for="auction-location">Local do Leilão:</label>
+                <input type="text" class="form-control" id="auction-location" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Cadastrar Produto</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $('#product-form').on('submit', function (e) {
+            e.preventDefault();
+            alert('Produto registrado com sucesso!');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
