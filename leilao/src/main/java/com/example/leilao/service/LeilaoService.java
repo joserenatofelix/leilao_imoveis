@@ -1,12 +1,13 @@
 package com.example.leilao.service;
 
-import com.example.leilao.model.Leilao;
-import com.example.leilao.repository.LeilaoRepository;
+import java.util.List;
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-import java.util.Optional;
+import com.example.leilao.model.Leilao;
+import com.example.leilao.repository.LeilaoRepository;
 
 @Service
 public class LeilaoService {
@@ -14,27 +15,54 @@ public class LeilaoService {
     @Autowired
     private LeilaoRepository leilaoRepository;
 
-    // Criar ou atualizar um leilão
+    /**
+     * Cria ou atualiza um leilão.
+     *
+     * @param leilao O leilão a ser criado ou atualizado.
+     * @return O leilão salvo.
+     */
     public Leilao criarOuAtualizarLeilao(Leilao leilao) {
+        // Aqui você pode adicionar validações do leilão se necessário
         return leilaoRepository.save(leilao);
     }
 
-    // Buscar leilão por ID
+    /**
+     * Busca um leilão pelo ID.
+     *
+     * @param id O ID do leilão.
+     * @return Um Optional com o leilão se encontrado, ou vazio.
+     */
     public Optional<Leilao> buscarLeilaoPorId(Long id) {
         return leilaoRepository.findById(id);
     }
 
-    // Listar todos os leilões
+    /**
+     * Lista todos os leilões.
+     *
+     * @return Uma lista de todos os leilões.
+     */
     public List<Leilao> listarLeiloes() {
         return leilaoRepository.findAll();
     }
 
-    // Excluir leilão por ID
+    /**
+     * Exclui um leilão pelo ID.
+     *
+     * @param id O ID do leilão a ser excluído.
+     * @throws IllegalArgumentException se o leilão não for encontrado.
+     */
     public void excluirLeilao(Long id) {
+        if (!leilaoRepository.existsById(id)) {
+            throw new IllegalArgumentException("Leilão com ID " + id + " não encontrado.");
+        }
         leilaoRepository.deleteById(id);
     }
 
-    // Buscar leilões ativos
+    /**
+     * Busca leilões que estão ativos.
+     *
+     * @return Uma lista de leilões ativos.
+     */
     public List<Leilao> buscarLeiloesAtivos() {
         return leilaoRepository.findByAtivoTrue();
     }

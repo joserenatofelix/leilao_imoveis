@@ -1,12 +1,14 @@
 package com.example.leilao.service;
 
-import com.example.leilao.model.Lance;
-import com.example.leilao.repository.LanceRepository;
+import java.util.List;
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-import java.util.Optional;
+import com.example.leilao.exception.LanceNotFoundException;
+import com.example.leilao.model.Lance;
+import com.example.leilao.repository.LanceRepository;
 
 @Service
 public class LanceService {
@@ -26,16 +28,14 @@ public class LanceService {
         return lanceRepository.findAll();
     }
 
-    public boolean excluirLance(Long id) {
-        Optional<Lance> lance = lanceRepository.findById(id);
-        if (lance.isPresent()) {
-            lanceRepository.delete(lance.get());
-            return true; // Retorna true se a exclusão foi bem-sucedida
+    public void excluirLance(Long id) {
+        if (!lanceRepository.existsById(id)) {
+            throw new LanceNotFoundException("Lance com ID " + id + " não encontrado.");
         }
-        return false; // Retorna false se o lance não foi encontrado
+        lanceRepository.deleteById(id);
     }
 
     public List<Lance> buscarLancesPorProduto(Long produtoId) {
-        return lanceRepository.findByProdutoId(produtoId); // Assumindo que este método existe no repositório
+        return lanceRepository.findByLeilaoId(produtoId); // Certifique-se de que isso reflete o que você deseja buscar
     }
 }

@@ -1,20 +1,16 @@
 package com.example.leilao.controller;
 
 import java.util.List;
-import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+import com.example.leilao.exception.LanceNotFoundException;
 import com.example.leilao.model.Lance;
 import com.example.leilao.service.LanceService;
+
+import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/lances")
@@ -24,15 +20,16 @@ public class LanceController {
     private LanceService lanceService;
 
     @PostMapping
-    public ResponseEntity<Lance> criarLance(@RequestBody Lance lance) {
+    public ResponseEntity<Lance> criarLance(@Valid @RequestBody Lance lance) {
         Lance savedLance = lanceService.criarOuAtualizarLance(lance);
-        return ResponseEntity.status(201).body(savedLance); // Retorna 201 Created
+        return ResponseEntity.status(201).body(savedLance);
     }
 
     @GetMapping("/{id}")
     public ResponseEntity<Lance> buscarLancePorId(@PathVariable Long id) {
-        Optional<Lance> lance = lanceService.buscarLancePorId(id);
-        return lance.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
+        Lance lance = lanceService.buscarLancePorId(id)
+                .orElseThrow(() -> new LanceNotFoundException("Lance não encontrado com ID " + id));
+        return ResponseEntity.ok(lance);
     }
 
     @GetMapping
@@ -43,10 +40,8 @@ public class LanceController {
 
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> excluirLance(@PathVariable Long id) {
-        if (lanceService.excluirLance(id)) {
-            return ResponseEntity.noContent().build(); // 204 No Content
-        }
-        return ResponseEntity.notFound().build(); // 404 Not Found
+        lanceService.excluirLance(id);
+        return ResponseEntity.noContent().build();
     }
 
     @GetMapping("/produto/{produtoId}")

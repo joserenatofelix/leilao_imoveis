@@ -8,9 +8,8 @@ import java.util.List;
 
 @Repository
 public interface ImovelRepository extends JpaRepository<Imovel, Long> {
-    // Encontrar todos os imóveis por status
-    List<Imovel> findByStatus(String status);
 
-    // Encontrar imóvel por localização
+    List<Imovel> findByStatus(String status);
+    
     List<Imovel> findByLocalizacao(String localizacao);
 }

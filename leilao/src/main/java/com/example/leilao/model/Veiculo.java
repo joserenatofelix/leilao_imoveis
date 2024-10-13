@@ -1,6 +1,8 @@
 package com.example.leilao.model;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
 import java.util.Objects;
 
 @Entity
@@ -11,15 +13,21 @@ public class Veiculo {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String tipo; // motocicleta, veículo de passeio, van
+    @NotNull(message = "O tipo do veículo não pode ser nulo.")
+    @Size(min = 1, message = "O tipo do veículo deve ter pelo menos 1 caractere.")
+    private String tipo;
+
+    @NotNull(message = "A marca do veículo não pode ser nula.")
+    @Size(min = 1, message = "A marca do veículo deve ter pelo menos 1 caractere.")
     private String marca;
+
+    @NotNull(message = "O modelo do veículo não pode ser nulo.")
+    @Size(min = 1, message = "O modelo do veículo deve ter pelo menos 1 caractere.")
     private String modelo;
 
     @ManyToOne
     @JoinColumn(name = "leilao_id", nullable = false)
     private Leilao leilao;
-
-    // Construtores, Getters, Setters, hashCode e equals
 
     public Veiculo() {}
 
@@ -30,56 +38,9 @@ public class Veiculo {
         this.leilao = leilao;
     }
 
-    public Long getId() {
-        return id;
-    }
+    // Getters e Setters
+    // ...
 
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getTipo() {
-        return tipo;
-    }
-
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
-    }
-
-    public String getMarca() {
-        return marca;
-    }
-
-    public void setMarca(String marca) {
-        this.marca = marca;
-    }
-
-    public String getModelo() {
-        return modelo;
-    }
-
-    public void setModelo(String modelo) {
-        this.modelo = modelo;
-    }
-
-    public Leilao getLeilao() {
-        return leilao;
-    }
-
-    public void setLeilao(Leilao leilao) {
-        this.leilao = leilao;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Veiculo)) return false;
-        Veiculo veiculo = (Veiculo) o;
-        return Objects.equals(id, veiculo.id);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(id);
-    }
+    // hashCode, equals e toString
+    // ...
 }

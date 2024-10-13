@@ -1,13 +1,17 @@
 package com.example.leilao.controller;
 
-import com.example.leilao.model.Imovel;
-import com.example.leilao.service.ImovelService;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-import java.util.Optional;
+import com.example.leilao.exception.ImovelNotFoundException;
+import com.example.leilao.model.Imovel;
+import com.example.leilao.service.ImovelService;
+
+import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/imoveis")
@@ -17,15 +21,16 @@ public class ImovelController {
     private ImovelService imovelService;
 
     @PostMapping
-    public ResponseEntity<Imovel> criarOuAtualizarImovel(@RequestBody Imovel imovel) {
+    public ResponseEntity<Imovel> criarOuAtualizarImovel(@Valid @RequestBody Imovel imovel) {
         Imovel savedImovel = imovelService.criarOuAtualizarImovel(imovel);
-        return ResponseEntity.ok(savedImovel);
+        return ResponseEntity.status(HttpStatus.CREATED).body(savedImovel);
     }
 
     @GetMapping("/{id}")
     public ResponseEntity<Imovel> buscarImovelPorId(@PathVariable Long id) {
-        Optional<Imovel> imovel = imovelService.buscarImovelPorId(id);
-        return imovel.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
+        Imovel imovel = imovelService.buscarImovelPorId(id)
+                .orElseThrow(() -> new ImovelNotFoundException("Imóvel não encontrado."));
+        return ResponseEntity.ok(imovel);
     }
 
     @GetMapping

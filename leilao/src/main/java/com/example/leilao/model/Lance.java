@@ -1,6 +1,9 @@
 package com.example.leilao.model;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Positive;
+
 import java.util.Objects;
 
 @Entity
@@ -11,20 +14,26 @@ public class Lance {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @NotNull(message = "O valor do lance não pode ser nulo.")
+    @Positive(message = "O valor do lance deve ser positivo.")
     private Double valor;
 
+    @NotNull(message = "O leilão não pode ser nulo.")
     @ManyToOne
     @JoinColumn(name = "leilao_id", nullable = false)
     private Leilao leilao;
 
+    @NotNull(message = "O cliente não pode ser nulo.")
     @ManyToOne
     @JoinColumn(name = "cliente_id", nullable = false)
     private Cliente cliente;
 
     // Construtores
-    public Lance() {}
+    public Lance() {
+    }
 
-    public Lance(Double valor, Leilao leilao, Cliente cliente) {
+    public Lance(Long id, Double valor, Leilao leilao, Cliente cliente) {
+        this.id = id;
         this.valor = valor;
         this.leilao = leilao;
         this.cliente = cliente;
@@ -63,7 +72,7 @@ public class Lance {
         this.cliente = cliente;
     }
 
-    // hashCode e equals
+    // hashCode, equals e toString
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -75,5 +84,15 @@ public class Lance {
     @Override
     public int hashCode() {
         return Objects.hash(id);
+    }
+
+    @Override
+    public String toString() {
+        return "Lance{" +
+                "id=" + id +
+                ", valor=" + valor +
+                ", leilao=" + leilao +
+                ", cliente=" + cliente +
+                '}';
     }
 }

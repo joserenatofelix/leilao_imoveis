@@ -8,9 +8,6 @@ import java.util.List;
 
 @Repository
 public interface LanceRepository extends JpaRepository<Lance, Long> {
-    // Encontrar todos os lances de um produto específico
-    List<Lance> findByProdutoId(Long produtoId);
 
-    // Encontrar o último lance de um produto
-    Lance findTopByProdutoIdOrderByValorDesc(Long produtoId);
+    List<Lance> findByLeilaoId(Long leilaoId); // Busca lances por ID do leilão
 }

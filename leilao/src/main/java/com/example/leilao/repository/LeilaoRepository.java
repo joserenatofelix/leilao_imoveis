@@ -6,11 +6,27 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+/**
+ * Interface de repositório para a entidade Leilao.
+ * Extende JpaRepository para fornecer operações CRUD.
+ */
 @Repository
 public interface LeilaoRepository extends JpaRepository<Leilao, Long> {
-    // Encontrar leilões ativos
+
+    /**
+     * Encontra todos os leilões ativos.
+     *
+     * @return Uma lista de leilões que estão ativos.
+     */
     List<Leilao> findByAtivoTrue();
 
-    // Encontrar leilões por produto
+    /**
+     * Encontra leilões por ID de produto associado.
+     *
+     * @param produtoId O ID do produto para o qual os leilões são buscados.
+     * @return Uma lista de leilões associados ao produto especificado.
+     */
     List<Leilao> findByProdutoId(Long produtoId);
+
+    // Você pode considerar adicionar mais métodos de consulta conforme necessário.
 }

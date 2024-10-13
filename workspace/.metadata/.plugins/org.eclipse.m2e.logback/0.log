@@ -166,3 +166,260 @@
 2024-10-12 21:41:23,068 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-10-12 21:41:23,077 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-10-12 21:41:23,091 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 10:05:22,201 [Worker-181: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:leilao:0.0.1-SNAPSHOT @ C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\pom.xml.
+2024-10-13 10:05:23,795 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 10:05:23,824 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 10:07:24,507 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 10:07:24,519 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 10:07:24,526 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 10:21:19,871 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-10-13 10:21:35,590 [Worker-189: Launching leilao (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao":
+2024-10-13 10:21:35,591 [Worker-189: Launching leilao (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dmaven.test.skip=true -DskipTests -Dstyle.color=always -gs "C:\Program Files\apache-maven-3.9.9\conf\settings.xml" -s "C:\Program Files\apache-maven-3.9.9\conf\settings.xml" clean install
+2024-10-13 10:59:06,701 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-10-13 10:59:27,650 [Worker-201: Launching leilao] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao":
+2024-10-13 10:59:27,651 [Worker-201: Launching leilao] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always -gs "C:\Program Files\apache-maven-3.9.9\conf\settings.xml" -s "C:\Program Files\apache-maven-3.9.9\conf\settings.xml" clean install
+2024-10-13 10:59:27,823 [Worker-202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 10:59:27,852 [Worker-202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 10:59:27,862 [Worker-202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 11:02:39,236 [Worker-202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 11:02:39,248 [Worker-202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 11:02:39,252 [Worker-202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 11:04:13,531 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-10-13 11:04:27,405 [Worker-203: Launching leilao (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao":
+2024-10-13 11:04:27,406 [Worker-203: Launching leilao (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always -gs "C:\Program Files\apache-maven-3.9.9\conf\settings.xml" -s "C:\Program Files\apache-maven-3.9.9\conf\settings.xml" clean install
+2024-10-13 11:06:25,617 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-10-13 11:06:35,598 [Worker-203: Launching leilao] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao":
+2024-10-13 11:06:35,599 [Worker-203: Launching leilao] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dmaven.test.skip=true -DskipTests -Dstyle.color=always -gs "C:\Program Files\apache-maven-3.9.9\conf\settings.xml" -s "C:\Program Files\apache-maven-3.9.9\conf\settings.xml" clean install
+2024-10-13 11:18:30,095 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 11:18:30,108 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 11:18:30,114 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 11:22:15,763 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 11:22:15,778 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 11:22:15,785 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 11:22:54,353 [Worker-208: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 11:22:54,361 [Worker-208: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 11:22:54,366 [Worker-208: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 11:23:02,782 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-10-13 11:23:15,271 [Worker-207: Launching leilao] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao":
+2024-10-13 11:23:15,272 [Worker-207: Launching leilao] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always -gs "C:\Program Files\apache-maven-3.9.9\conf\settings.xml" -s "C:\Program Files\apache-maven-3.9.9\conf\settings.xml" clean install
+2024-10-13 11:23:15,273 [Worker-207: Launching leilao] WARN  o.e.m.i.l.MavenLaunchExtensionsSupport - Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+2024-10-13 11:28:53,161 [Worker-213: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 11:28:53,176 [Worker-213: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 11:28:53,181 [Worker-213: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 11:30:04,162 [Worker-211: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 11:30:04,172 [Worker-211: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 11:30:04,176 [Worker-211: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 11:33:26,496 [Worker-216: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 11:33:26,505 [Worker-216: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 11:33:26,517 [Worker-216: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 11:34:28,187 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-10-13 11:34:40,028 [Worker-215: Launching leilao] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao":
+2024-10-13 11:34:40,030 [Worker-215: Launching leilao] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always -gs "C:\Program Files\apache-maven-3.9.9\conf\settings.xml" -s "C:\Program Files\apache-maven-3.9.9\conf\settings.xml" clean install
+2024-10-13 11:53:32,364 [Worker-217: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 11:53:32,374 [Worker-217: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 11:53:32,379 [Worker-217: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 11:55:28,540 [Worker-221: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:leilao:0.0.1-SNAPSHOT @ C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\pom.xml.
+2024-10-13 11:55:29,516 [Worker-221: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.3.4/spring-boot-starter-validation-3.3.4.pom
+2024-10-13 11:55:29,541 [Worker-221: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.3.4/spring-boot-starter-validation-3.3.4.pom
+2024-10-13 11:55:29,575 [Worker-221: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/8.0.1.Final/hibernate-validator-8.0.1.Final.pom
+2024-10-13 11:55:29,593 [Worker-221: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/8.0.1.Final/hibernate-validator-8.0.1.Final.pom
+2024-10-13 11:55:29,627 [Worker-221: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator-parent/8.0.1.Final/hibernate-validator-parent-8.0.1.Final.pom
+2024-10-13 11:55:29,670 [Worker-221: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator-parent/8.0.1.Final/hibernate-validator-parent-8.0.1.Final.pom
+2024-10-13 11:55:29,709 [Worker-221: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/arquillian/arquillian-bom/1.7.0.Alpha10/arquillian-bom-1.7.0.Alpha10.pom
+2024-10-13 11:55:29,718 [Worker-221: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/arquillian/arquillian-bom/1.7.0.Alpha10/arquillian-bom-1.7.0.Alpha10.pom
+2024-10-13 11:55:29,754 [Worker-221: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-bom/1.2.6/shrinkwrap-bom-1.2.6.pom
+2024-10-13 11:55:29,762 [Worker-221: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-bom/1.2.6/shrinkwrap-bom-1.2.6.pom
+2024-10-13 11:55:29,799 [Worker-221: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/3.1.4/shrinkwrap-resolver-bom-3.1.4.pom
+2024-10-13 11:55:29,807 [Worker-221: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/3.1.4/shrinkwrap-resolver-bom-3.1.4.pom
+2024-10-13 11:55:29,839 [Worker-221: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.6.3/maven-3.6.3.pom
+2024-10-13 11:55:29,857 [Worker-221: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.6.3/maven-3.6.3.pom
+2024-10-13 11:55:29,898 [Worker-221: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/33/maven-parent-33.pom
+2024-10-13 11:55:29,911 [Worker-221: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/33/maven-parent-33.pom
+2024-10-13 11:55:29,953 [Worker-221: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-bom/2.0.0/shrinkwrap-descriptors-bom-2.0.0.pom
+2024-10-13 11:55:29,960 [Worker-221: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-bom/2.0.0/shrinkwrap-descriptors-bom-2.0.0.pom
+2024-10-13 11:55:29,994 [Worker-221: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.pom
+2024-10-13 11:55:30,003 [Worker-221: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.pom
+2024-10-13 11:55:30,691 [Worker-221: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.3.4/spring-boot-starter-validation-3.3.4.jar
+2024-10-13 11:55:30,698 [Worker-221: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.3.4/spring-boot-starter-validation-3.3.4.jar
+2024-10-13 11:55:30,730 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/8.0.1.Final/hibernate-validator-8.0.1.Final.jar
+2024-10-13 11:55:30,787 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar
+2024-10-13 11:55:30,820 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar
+2024-10-13 11:55:30,877 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/8.0.1.Final/hibernate-validator-8.0.1.Final.jar
+2024-10-13 11:55:31,674 [Worker-221: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 11:55:31,676 [Worker-221: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 11:55:31,685 [Worker-221: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 11:55:32,368 [Worker-222: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.3.4/spring-boot-starter-validation-3.3.4-sources.jar
+2024-10-13 11:55:32,377 [Worker-222: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.3.4/spring-boot-starter-validation-3.3.4-sources.jar
+2024-10-13 11:55:32,387 [Worker-222: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-validation:3.3.4
+2024-10-13 11:55:32,468 [Worker-222: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/8.0.1.Final/hibernate-validator-8.0.1.Final-sources.jar
+2024-10-13 11:55:32,564 [Worker-222: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/8.0.1.Final/hibernate-validator-8.0.1.Final-sources.jar
+2024-10-13 11:55:32,570 [Worker-222: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.validator:hibernate-validator:8.0.1.Final
+2024-10-13 11:55:32,656 [Worker-222: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2-sources.jar
+2024-10-13 11:55:32,695 [Worker-222: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2-sources.jar
+2024-10-13 11:55:32,701 [Worker-222: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.validation:jakarta.validation-api:3.0.2
+2024-10-13 11:55:34,403 [Worker-222: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 11:55:34,427 [Worker-222: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 11:55:34,432 [Worker-222: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 11:56:35,450 [Worker-222: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 11:56:35,469 [Worker-222: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 11:56:35,474 [Worker-222: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 11:57:16,873 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-10-13 11:57:27,307 [Worker-224: Launching leilao] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao":
+2024-10-13 11:57:27,308 [Worker-224: Launching leilao] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always -gs "C:\Program Files\apache-maven-3.9.9\conf\settings.xml" -s "C:\Program Files\apache-maven-3.9.9\conf\settings.xml" clean install
+2024-10-13 12:01:39,748 [Worker-223: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 12:01:39,775 [Worker-223: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 12:01:39,780 [Worker-223: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 12:03:01,381 [Worker-227: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 12:03:01,388 [Worker-227: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 12:03:01,394 [Worker-227: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 12:03:42,608 [Worker-217: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 12:03:42,615 [Worker-217: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 12:03:42,620 [Worker-217: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 12:04:10,033 [Worker-228: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 12:04:10,041 [Worker-228: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 12:04:10,046 [Worker-228: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 12:11:47,908 [Worker-230: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 12:11:47,916 [Worker-230: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 12:11:47,925 [Worker-230: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 12:33:17,325 [Worker-243: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 12:33:17,337 [Worker-243: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 12:33:17,341 [Worker-243: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 12:33:21,246 [Worker-242: Launching leilao] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao":
+2024-10-13 12:33:21,247 [Worker-242: Launching leilao] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always -gs "C:\Program Files\apache-maven-3.9.9\conf\settings.xml" -s "C:\Program Files\apache-maven-3.9.9\conf\settings.xml" clean install
+2024-10-13 12:33:21,531 [Worker-241: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 12:33:21,542 [Worker-241: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 12:33:21,547 [Worker-241: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 12:34:11,428 [Worker-246: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 12:34:11,435 [Worker-246: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 12:34:11,446 [Worker-246: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 12:34:26,432 [Worker-241: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 12:34:26,440 [Worker-241: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 12:34:26,445 [Worker-241: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 12:35:50,179 [Worker-244: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 12:35:50,187 [Worker-244: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 12:35:50,193 [Worker-244: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 12:39:46,484 [Worker-244: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 12:39:46,491 [Worker-244: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 12:39:46,494 [Worker-244: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 12:43:25,471 [Worker-252: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 12:43:25,482 [Worker-252: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 12:43:25,486 [Worker-252: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 12:46:41,834 [Worker-253: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 12:46:41,843 [Worker-253: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 12:46:41,848 [Worker-253: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 12:49:54,609 [Worker-255: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 12:49:54,623 [Worker-255: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 12:49:54,627 [Worker-255: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 12:50:18,123 [Worker-255: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 12:50:18,132 [Worker-255: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 12:50:18,136 [Worker-255: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 12:53:16,918 [Worker-257: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 12:53:16,925 [Worker-257: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 12:53:16,930 [Worker-257: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 12:54:43,882 [Worker-257: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 12:54:43,890 [Worker-257: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 12:54:43,895 [Worker-257: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 12:57:52,580 [Worker-261: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 12:57:52,587 [Worker-261: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 12:57:52,591 [Worker-261: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 13:08:28,507 [Worker-263: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 13:08:28,510 [Worker-263: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 13:08:28,514 [Worker-263: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 13:08:53,558 [Worker-261: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 13:08:53,561 [Worker-261: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 13:08:53,587 [Worker-261: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 13:09:16,385 [Worker-265: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 13:09:16,395 [Worker-265: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 13:09:16,401 [Worker-265: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 13:14:13,331 [Worker-267: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 13:14:13,378 [Worker-267: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 13:14:13,383 [Worker-267: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 13:14:25,055 [Worker-266: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 13:14:25,067 [Worker-266: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 13:14:25,072 [Worker-266: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 13:17:37,780 [Worker-265: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 13:17:37,799 [Worker-265: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 13:17:37,810 [Worker-265: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 13:28:25,341 [Worker-272: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 13:28:25,349 [Worker-272: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 13:28:25,414 [Worker-272: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 13:35:23,967 [Worker-275: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 13:35:23,986 [Worker-275: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 13:35:23,990 [Worker-275: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 13:35:34,274 [Worker-274: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 13:35:34,286 [Worker-274: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 13:35:34,290 [Worker-274: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 13:36:26,025 [Worker-276: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 13:36:26,051 [Worker-276: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 13:36:26,056 [Worker-276: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 13:40:27,481 [Worker-273: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 13:40:27,488 [Worker-273: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 13:40:27,493 [Worker-273: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 13:45:20,951 [Worker-283: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 13:45:20,958 [Worker-283: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 13:45:20,964 [Worker-283: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 13:46:10,118 [Worker-281: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 13:46:10,126 [Worker-281: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 13:46:10,131 [Worker-281: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 13:51:58,354 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 13:51:58,356 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 13:51:58,361 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 13:52:49,457 [Worker-280: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 13:52:49,464 [Worker-280: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 13:52:49,469 [Worker-280: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 13:53:13,941 [Worker-285: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 13:53:13,949 [Worker-285: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 13:53:13,955 [Worker-285: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 13:56:48,359 [Worker-280: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 13:56:48,368 [Worker-280: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 13:56:48,373 [Worker-280: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 13:57:45,677 [Worker-280: Launching Executing clean in C__Users_Renato Felix_Documents_Github_leilao_imoveis_leilao] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao":
+2024-10-13 13:57:45,678 [Worker-280: Launching Executing clean in C__Users_Renato Felix_Documents_Github_leilao_imoveis_leilao] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always -gs "C:\Program Files\apache-maven-3.9.9\conf\settings.xml" -s "C:\Program Files\apache-maven-3.9.9\conf\settings.xml" clean
+2024-10-13 13:57:49,375 [Worker-280: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 13:57:49,378 [Worker-280: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 13:57:49,382 [Worker-280: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 13:58:01,767 [Worker-284: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 13:58:01,769 [Worker-284: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 13:58:01,773 [Worker-284: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 13:58:12,274 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-10-13 13:58:22,091 [Worker-286: Launching leilao (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao":
+2024-10-13 13:58:22,092 [Worker-286: Launching leilao (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always -gs "C:\Program Files\apache-maven-3.9.9\conf\settings.xml" -s "C:\Program Files\apache-maven-3.9.9\conf\settings.xml" clean install
+2024-10-13 14:03:59,681 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 14:03:59,687 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 14:03:59,694 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 14:06:53,948 [Worker-293: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 14:06:53,956 [Worker-293: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 14:06:53,962 [Worker-293: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 14:09:21,695 [Worker-292: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 14:09:21,704 [Worker-292: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 14:09:21,709 [Worker-292: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 14:11:18,391 [Worker-291: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 14:11:18,407 [Worker-291: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 14:11:18,416 [Worker-291: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 14:13:47,420 [Worker-295: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 14:13:47,428 [Worker-295: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 14:13:47,432 [Worker-295: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 14:16:54,418 [Worker-300: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 14:16:54,427 [Worker-300: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 14:16:54,431 [Worker-300: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 14:17:31,409 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-10-13 14:17:42,836 [Worker-298: Launching leilao] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao":
+2024-10-13 14:17:42,837 [Worker-298: Launching leilao] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always -gs "C:\Program Files\apache-maven-3.9.9\conf\settings.xml" -s "C:\Program Files\apache-maven-3.9.9\conf\settings.xml" clean install
+2024-10-13 14:20:50,873 [Worker-298: Launching Executing clean in C__Users_Renato Felix_Documents_Github_leilao_imoveis_leilao] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao":
+2024-10-13 14:20:50,874 [Worker-298: Launching Executing clean in C__Users_Renato Felix_Documents_Github_leilao_imoveis_leilao] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always -gs "C:\Program Files\apache-maven-3.9.9\conf\settings.xml" -s "C:\Program Files\apache-maven-3.9.9\conf\settings.xml" clean
+2024-10-13 14:20:55,006 [Worker-298: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 14:20:55,009 [Worker-298: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 14:20:55,015 [Worker-298: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 14:48:22,709 [Worker-311: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 14:48:22,712 [Worker-311: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 14:48:22,717 [Worker-311: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 14:48:56,078 [Worker-322: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 14:48:56,089 [Worker-322: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 14:48:56,094 [Worker-322: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao\src\test\resources
+2024-10-13 14:50:57,508 [Worker-311: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 14:50:57,510 [Worker-311: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 14:50:57,523 [Worker-311: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-13 15:02:12,748 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-10-13 15:02:26,104 [Worker-323: Launching leilao] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Renato Felix\Documents\Github\leilao_imoveis\leilao":
+2024-10-13 15:02:26,105 [Worker-323: Launching leilao] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dmaven.test.skip=true -DskipTests -Dstyle.color=always -gs "C:\Program Files\apache-maven-3.9.9\conf\settings.xml" -s "C:\Program Files\apache-maven-3.9.9\conf\settings.xml" clean install
+2024-10-13 15:08:35,662 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

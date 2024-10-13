@@ -1,8 +1,11 @@
 package com.example.leilao.model;
 
 import jakarta.persistence.*;
-import java.util.List;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
+import java.util.HashSet;
 import java.util.Objects;
+import java.util.Set;
 
 @Entity
 @Table(name = "leilao")
@@ -12,64 +15,20 @@ public class Leilao {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @NotNull(message = "O nome do leilão não pode ser nulo.")
+    @Size(min = 1, message = "O nome do leilão deve ter pelo menos 1 caractere.")
     private String nome;
 
-    @OneToMany(mappedBy = "leilao", cascade = CascadeType.ALL)
-    private List<Imovel> imoveis;
+    @OneToMany(mappedBy = "leilao", cascade = CascadeType.ALL, orphanRemoval = true)
+    private Set<Imovel> imoveis = new HashSet<>();
 
-    @OneToMany(mappedBy = "leilao", cascade = CascadeType.ALL)
-    private List<Veiculo> veiculos;
+    @OneToMany(mappedBy = "leilao", cascade = CascadeType.ALL, orphanRemoval = true)
+    private Set<Veiculo> veiculos = new HashSet<>();
 
-    @OneToMany(mappedBy = "leilao", cascade = CascadeType.ALL)
-    private List<Lance> lances;
+    @OneToMany(mappedBy = "leilao", cascade = CascadeType.ALL, orphanRemoval = true)
+    private Set<Lance> lances = new HashSet<>();
 
-    // Construtores, Getters, Setters, hashCode e equals
-
-    public Leilao() {}
-
-    public Leilao(String nome) {
-        this.nome = nome;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public List<Imovel> getImoveis() {
-        return imoveis;
-    }
-
-    public void setImoveis(List<Imovel> imoveis) {
-        this.imoveis = imoveis;
-    }
-
-    public List<Veiculo> getVeiculos() {
-        return veiculos;
-    }
-
-    public void setVeiculos(List<Veiculo> veiculos) {
-        this.veiculos = veiculos;
-    }
-
-    public List<Lance> getLances() {
-        return lances;
-    }
-
-    public void setLances(List<Lance> lances) {
-        this.lances = lances;
-    }
+    // Construtores, Getters e Setters...
 
     @Override
     public boolean equals(Object o) {
@@ -82,5 +41,16 @@ public class Leilao {
     @Override
     public int hashCode() {
         return Objects.hash(id);
+    }
+
+    @Override
+    public String toString() {
+        return "Leilao{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", imoveis=" + imoveis.size() +
+                ", veiculos=" + veiculos.size() +
+                ", lances=" + lances.size() +
+                '}';
     }
 }

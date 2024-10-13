@@ -18,8 +18,6 @@ public class Cliente {
     @OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL)
     private List<Lance> lances;
 
-    // Construtores, Getters, Setters, hashCode e equals
-
     public Cliente() {}
 
     public Cliente(String nome, String email) {
