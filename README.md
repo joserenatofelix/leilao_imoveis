@@ -52,6 +52,13 @@ com.example.leilao.controller:
 -LeilaoService: Classe de serviço para operações relacionadas a leilões.
 -VeiculoService: Classe de serviço para operações relacionadas a veículos.
 
+![](assets/img/Tela%20Inicio.png)
+![](assets/img/Tela%20Cadastro.png)
+![](assets/img/Leilão.png)
+![](assets/img/Produtos.png)
+![](assets/img/Historico.png)
+![](assets/img/Leiloes.png)
+
 **Tecnologias Utilizadas**
 *Front-End: HTML, CSS, Bootstrap*
 *Back-End: Java, Spring Boot, JPA/Hibernate*
